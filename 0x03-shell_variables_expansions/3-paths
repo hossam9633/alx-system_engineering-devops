@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $PATH | ls | wc -l
+echo $PATH |ls |  grep '/$' | wc -l
+
