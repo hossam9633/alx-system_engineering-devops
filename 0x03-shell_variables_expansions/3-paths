@@ -1,2 +1,3 @@
 #!/bin/bash
-export COUNT=$PATH:wc
+echo $PATH | tr ':' '\n' | grep -c '/$'
+
