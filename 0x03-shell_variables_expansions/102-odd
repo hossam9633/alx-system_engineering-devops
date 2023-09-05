@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n -A2 '^'
+grep -n -A1 '^'
