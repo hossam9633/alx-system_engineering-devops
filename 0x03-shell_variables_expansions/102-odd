@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n -A1 '^'
+grep -n '^' input_file | grep -E -v '^[[:digit:]]*[02468]:'
