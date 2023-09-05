@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '^' input_file | grep -E -v '^[[:digit:]]*[02468]:'
+paste -d, - - | cut -d, -f 1
